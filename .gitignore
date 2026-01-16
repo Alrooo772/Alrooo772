@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm/
+yarn.lock
+bun.lockb
+# Keep lock files for dependency tracking
+# package-lock.json is committed to the repo
+
+# Build output
+dist/
+build/
+.next/
+.turbo/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.parcel-cache/
+.vercel/

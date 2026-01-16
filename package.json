@@ -1,0 +1,23 @@
+{
+  "name": "alrooo772",
+  "version": "1.0.0",
+  "description": "A Preact application with Vercel Web Analytics",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "preact": "^10.19.6",
+    "@vercel/analytics": "^1.1.1"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "@preact/preset-vite": "^2.7.2",
+    "eslint": "^8.55.0",
+    "vitest": "^1.1.0"
+  }
+}
